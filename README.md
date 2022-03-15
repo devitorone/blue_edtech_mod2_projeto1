@@ -1,5 +1,5 @@
 # blue_edtech_mod2_projeto1
-Projeto 1-
+Projeto 1- Jogo do humor
 
  * Criação do repositório exclusivo no GitHub.
  * Utilização de HTML, CSS e JS puros, sem utilização de framework.
