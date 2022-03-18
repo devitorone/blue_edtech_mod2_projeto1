@@ -12,17 +12,24 @@ btnTexto.addEventListener("click", function () {
   //   document.body.appendChild(tagH1); // Adiciona ao body a h1 criada, com seu texto.
   if (count == 1) {
     document.body.style.backgroundImage = "url('./assets/img/DD-tavern.jpg')";
+    document.getElementById('voljinBox').src='./assets/img/voljin2.jpg';
+    document.getElementById("h11").innerHTML = "Yo-ho!!! Bora BEBER";
   } else if (count == 2) {
     document.body.style.backgroundImage =
       "url('./assets/img/taverna_azeroth.jpg')";
+      document.getElementById('voljinBox').src='./assets/img/voljin3.jpg';
+      document.getElementById("h11").innerHTML = "O cão Foi quem butô pa nois bebe";
   } else if (count == 3) {
     document.body.style.backgroundImage =
       "url('./assets/img/taverna-the-geek-life.jpg')";
+      document.getElementById('voljinBox').src='./assets/img/voljin4.jpg';
+      document.getElementById("h11").innerHTML = "Vou te jogar Mandinga";
   } else if (count == 4) {
     alert("Vai com calma, nosso amigo Voljin não é de ferro. Amanhã é um outro dia");
     count = 0;
     document.body.style.backgroundImage =
       "url('./assets/img/taverna1.jpg')";
+      document.getElementById('voljinBox').src='./assets/img/voljin1.jpg'
   }
 });
 
