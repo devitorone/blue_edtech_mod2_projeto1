@@ -8,10 +8,10 @@ btnTexto.addEventListener("click", function () {
   tagH1.appendChild(h1Text); // Adiciona à tag H1 o texto criado acima
 
   document.body.appendChild(tagH1); // Adiciona ao body a h1 criada, com seu texto.
-  document.body.style.backgroundImage =
-    "url('http://www.blogcdn.com/wow.joystiq.com/media/2007/08/insiderzgenter.jpg')";
+  document.body.style.background =
+    "url('http://www.blogcdn.com/wow.joystiq.com/media/2007/08/insiderzgenter.jpg') no-repeat center center";
 });
 
-window.onload = function () {
-  alert("Olá web, aqui é o javascript");
-};
+// window.onload = function () {
+//   alert("Olá web, aqui é o javascript");
+// };
