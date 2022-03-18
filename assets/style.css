@@ -2,8 +2,39 @@ body {
   background-color: gray;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./img/537319.jpg");
+  background-image: url("./img/taverna1.jpg");
   background-position: center center; 
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+header{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+
+#btnDiv {
+    align-self: center;
+    
+}
+
+#divImg {
+    align-self: center;
+    
+}
+
+#voljinBox {
+    width: auto;
+    max-height: 20em;
+    padding-top: 3em;
+    padding-left: 3em;
 }
