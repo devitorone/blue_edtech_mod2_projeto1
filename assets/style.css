@@ -19,9 +19,11 @@ header{
     text-align: center;
     background-color: aliceblue;
     border-radius: 50px;
+    background-size: contain;
 }
-#text{
-    background-color: aliceblue;
+#h11{
+    background-color: aliceblu;
+    
 }
 
 #btnDiv {

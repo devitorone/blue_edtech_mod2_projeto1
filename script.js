@@ -29,7 +29,8 @@ btnTexto.addEventListener("click", function () {
     count = 0;
     document.body.style.backgroundImage =
       "url('./assets/img/taverna1.jpg')";
-      document.getElementById('voljinBox').src='./assets/img/voljin1.jpg'
+      document.getElementById('voljinBox').src='./assets/img/voljin1.jpg';
+      document.getElementById("h11").innerHTML = "Coé!?!";
   }
 });
 
